@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    tools:context="com.example.android.tictactoe.dialog5by5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/combo"
+        android:text="TIC TAC TOE"
+        android:textSize="64sp"
+        android:textColor="#DCE0D9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <RelativeLayout
+
+        android:layout_width="280dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:background="#ffffff">
+
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/editText1"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Player X Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textCapWords"/>
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/editText2"
+            android:layout_below="@id/editText1"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Player O Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textCapWords"/>
+        <Button
+
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/playbutton"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/editText2"
+            android:text="PLAY"
+            android:textColor="#FFFFFC"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

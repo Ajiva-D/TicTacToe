@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="five_by_five">Tic Tac Toe</string>
+
+    <string name="select">
+Select
+</string>
+    <string name="player_1">
+Player 1
+</string>
+    <string name="some_id">
+0
+</string>
+    <string name="vs">
+vs
+</string>
+    <string name="player_2">
+Player 2
+</string>
+    <string name="some_id2">
+0
+</string>
+
+</resources>
